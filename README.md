@@ -1,7 +1,8 @@
 
 # Responsive User Registration
 
-![Login Screenshot](static/images/login.png)
+![Login Screenshot](login.png)
+
 
 
 ## Overview
