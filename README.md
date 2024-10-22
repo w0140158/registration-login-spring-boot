@@ -1,6 +1,9 @@
 
 # Responsive User Registration
 
+![Login Screenshot](static/images/login.png)
+
+
 ## Overview
 
 Responsive User Registration is a Spring Boot web application that provides a user-friendly interface for user registration and login functionalities. The application incorporates modern design principles and features a responsive layout, ensuring compatibility across various devices.
