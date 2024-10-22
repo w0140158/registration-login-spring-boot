@@ -3,6 +3,7 @@ package com.example.responsiveuserregistration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,8 +30,4 @@ public class UserCheckController {
         return ResponseEntity.status(HttpStatus.OK).body(exists);
     }
 
-    @GetMapping("/api/auth/finduser-by-username")
-    public ResponseEntity<User> findUserByUsername(@RequestParam String username) {
-        return ResponseEntity.status(HttpStatus.OK).body(userService.findByUsername(username));
-    }
 }
