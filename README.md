@@ -1,8 +1,11 @@
 
 # Responsive User Registration
 
-![Login Screenshot](login.png)
-![Login Screenshot](register.png)
+<p align="center">
+  <img src="login.png" alt="Login Screenshot" width="45%" />
+  <img src="register.png" alt="Register Screenshot" width="45%" />
+</p>
+
 
 
 ## Overview
