@@ -1,3 +1,4 @@
+
 # Responsive User Registration
 
 ## Overview
@@ -31,22 +32,44 @@ Responsive User Registration is a Spring Boot web application that provides a us
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/w0140158/responsive-user-registration.git
-   ```
+   \`\`\`
 2. Navigate to the project directory:
-   ```bash
+   \`\`\`bash
    cd responsive-user-registration
-   ```
+   \`\`\`
 3. Build the project using Maven:
-   ```bash
+   \`\`\`bash
    mvn clean install
-   ```
+   \`\`\`
 4. Run the application:
-   ```bash
+   \`\`\`bash
    mvn spring-boot:run
-   ```
+   \`\`\`
 5. Open your browser and navigate to `http://localhost:8080/login` to access the application.
+
+## API Endpoints
+
+Here are the key API endpoints available in the application:
+
+- **POST /api/auth/register**  
+  Registers a new user. Expects a JSON object with `username`, `password`, and `email`.
+  
+- **POST /login**  
+  Authenticates the user with `username` and `password`.
+
+- **GET /index**  
+  Retrieves the main dashboard for authenticated users.
+
+- **GET /login?error=true**  
+  Redirects to the login page with an error message when authentication fails.
+
+- **GET /logout**  
+  Logs the user out and invalidates the session.
+
+- **GET /register**  
+  Returns the registration page for new users.
 
 ## Usage
 
