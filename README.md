@@ -2,9 +2,10 @@
 # Responsive User Registration
 
 <p align="center">
-  <img src="login.png" alt="Login Screenshot" width="45%" />
-  <img src="register.png" alt="Register Screenshot" width="45%" />
+  <img src="login.png" alt="Login Screenshot" height="200" />
+  <img src="register.png" alt="Register Screenshot" height="200" />
 </p>
+
 
 
 
