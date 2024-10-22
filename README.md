@@ -2,7 +2,7 @@
 # Responsive User Registration
 
 ![Login Screenshot](login.png)
-
+![Login Screenshot](register.png)
 
 
 ## Overview
